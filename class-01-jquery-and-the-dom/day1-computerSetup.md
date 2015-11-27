@@ -57,6 +57,12 @@ For this next part, you will have Atom's package manager **apm** install some pa
 
 You should get two success messages while it installs the linter and linter-eslint packages.
 
+NOTE: On OSX, you may need to first install apm as follows. In Atom's main menu: Atom -> Install Shell Commands
+Verify apm is installed by typing:
+`which atom`
+You should see something like:
+`/usr/local/bin/atom`
+
 ### Verify the Atom packages installation
 Enter the following into your Terminal:
 
