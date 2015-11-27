@@ -51,13 +51,10 @@ You should get a list back that lists linter and linter-eslint.
 ![](http://i.imgur.com/1ITioP1.png)
 
 ## Install linter and linter-eslint Atom packages
-For this next part, you will have Atom's package manager **apm** install some packages. Go [here](https://atom.io/docs/v0.194.0/using-atom-atom-packages#command-line) to verify it's enabled. Once you have verified that apm commands will work, enter this on your Terminal:
-
-`apm install linter linter-eslint`
-
-You should get two success messages while it installs the linter and linter-eslint packages.
+For this next part, you will have Atom's package manager **apm** install some packages.
 
 NOTE: On OSX, you may need to first install apm as follows. In Atom's main menu: Atom -> Install Shell Commands
+
 Verify apm is installed by typing:
 
 `which atom`
@@ -65,6 +62,12 @@ Verify apm is installed by typing:
 You should see something like this:
 
 `/usr/local/bin/atom`
+
+Go [here](https://atom.io/docs/v0.194.0/using-atom-atom-packages#command-line) to verify it's enabled. Once you have verified that apm commands will work, enter this on your Terminal:
+
+`apm install linter linter-eslint`
+
+You should get two success messages while it installs the linter and linter-eslint packages.
 
 ### Verify the Atom packages installation
 Enter the following into your Terminal:
