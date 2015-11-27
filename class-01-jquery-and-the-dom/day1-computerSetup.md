@@ -57,13 +57,13 @@ NOTE: On OSX, you may need to first install apm as follows. In Atom's main menu:
 
 Verify apm is installed by typing:
 
-`which atom`
+`which apm`
 
 You should see something like this:
 
-`/usr/local/bin/atom`
+`/usr/local/bin/apm`
 
-Go [here](https://atom.io/docs/v0.194.0/using-atom-atom-packages#command-line) to verify it's enabled. Once you have verified that apm commands will work, enter this on your Terminal:
+Go [here](https://atom.io/docs/v0.194.0/using-atom-atom-packages#command-line) to verify apm is enabled. Once you have verified that apm commands will work, enter this on your Terminal:
 
 `apm install linter linter-eslint`
 
